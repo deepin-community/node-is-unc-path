@@ -1,0 +1,5 @@
+Tests: require
+Depends: node-is-unc-path
+
+Test-Command: mocha -R spec
+Depends: @, @builddeps@

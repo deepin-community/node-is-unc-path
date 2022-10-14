@@ -1,0 +1,40 @@
+node-is-unc-path (1.0.0-3) unstable; urgency=medium
+
+  * Remove empty leading paragraph in Description.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Wed, 15 Sep 2021 10:12:57 +0100
+
+node-is-unc-path (1.0.0-2) unstable; urgency=low
+
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-unc-path-regex.
+    + node-is-unc-path: Drop versioned constraint on node-unc-path-regex in
+      Depends.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sat, 28 Aug 2021 23:47:07 +0100
+
+node-is-unc-path (1.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.0
+  * Bump debhelper compatibility level to 11
+  * Use salsa.debian.org in Vcs-* fields
+  * Bump Standards-Version to 4.3.0 (no changes needed)
+  * Change section to javascript
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 22 May 2019 19:50:29 +0530
+
+node-is-unc-path (0.1.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #847211)
+
+ -- Sruthi Chandran <srud@disroot.org>  Wed, 07 Dec 2016 20:18:49 +0530
