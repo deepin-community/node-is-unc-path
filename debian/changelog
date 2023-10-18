@@ -1,3 +1,25 @@
+node-is-unc-path (1.0.0-5) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-is-unc-path: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 09:07:38 +0000
+
+node-is-unc-path (1.0.0-4) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.0, no changes needed.
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+    * Fix filenamemangle
+    * Fix GitHub tags regex
+  * Drop nodejs dependency
+  * Mark test dependencies with <!nocheck>
+  * Use dh-sequence-nodejs auto test & install
+
+ -- Yadd <yadd@debian.org>  Sun, 12 Dec 2021 21:28:28 +0100
+
 node-is-unc-path (1.0.0-3) unstable; urgency=medium
 
   * Remove empty leading paragraph in Description.
